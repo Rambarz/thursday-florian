@@ -1,0 +1,29 @@
+{
+  "name": "livecoding",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "npmWorkflow.js",
+  "scripts": {
+    "start": "node npmWorkflow.js",
+    "live": "publish later on",
+    "build": "webpack",
+    "dev": "nodemon npmWorkflow.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "luxon": "^3.5.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "readline-sync": "^1.4.10",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
